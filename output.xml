@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-26T11:06:18.829331" rpa="false" schemaversion="5">
+<suite id="s1" name="TC1" source="C:\Users\Bakery\PycharmProjects\SwagLabs\tests\TC1.robot">
+<test id="s1-t1" name="LoginTest" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-26T11:06:19.060149" level="INFO">Opening browser 'chrome' to base url 'file:///C:/Users/Bakery/PycharmProjects/SwagLabs/pages/swag_labs.html'.</msg>
+<arg>${page}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-26T11:06:19.059845" elapsed="1.311909"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-03-26T11:06:20.372131" elapsed="0.039142"/>
+</kw>
+<kw name="Set Selenium Timeout" owner="SeleniumLibrary">
+<arg>5 seconds</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" start="2025-03-26T11:06:20.411587" elapsed="0.003811"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-26T11:06:20.418060" level="INFO">Typing text 'standart_user' into text field 'id:username'.</msg>
+<arg>id:username</arg>
+<arg>standart_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-26T11:06:20.416125" elapsed="0.129743"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-26T11:06:20.546217" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
+<arg>id:password</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-26T11:06:20.546043" elapsed="0.064344"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-26T11:06:30.611754" level="INFO">Slept 10 seconds.</msg>
+<arg>10 seconds</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-26T11:06:20.610584" elapsed="10.001569"/>
+</kw>
+<status status="PASS" start="2025-03-26T11:06:19.059014" elapsed="11.553464"/>
+</test>
+<status status="PASS" start="2025-03-26T11:06:18.830897" elapsed="11.782083"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TC1" id="s1" pass="1" fail="0" skip="0">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
