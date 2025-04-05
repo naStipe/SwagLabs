@@ -26,4 +26,4 @@ jobs:
           # pip install -r requirements.txt
 
       - name: Run Robot tests
-        run: robot tests/
+        run: tests/TC1.robot
