@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${page}     file:///C:/Users/Bakery/PycharmProjects/SwagLabs/docs/swag_labs.html
+${page}     https://nastipe.github.io/SwagLabs/
 
 *** Test Cases ***
 LoginTest
