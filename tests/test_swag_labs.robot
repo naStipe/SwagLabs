@@ -6,7 +6,7 @@ ${page}     https://nastipe.github.io/SwagLabs/
 
 *** Test Cases ***
 LoginTest
-    Open browser    ${page}     chrome
+    Open browser    ${page}     headlesschrome
     Maximize browser window
     Set selenium timeout    10 seconds
     Wait until page contains element    id:username
